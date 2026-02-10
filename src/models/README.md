@@ -15,5 +15,5 @@ Download the models and set their path next to the 'model' parameter in the YOLO
 | Method                       | Model Weights
 |-------------------------------|----------------
 |Entropy-based Sampling (Maximum Aggregation) | [Ent-Max Best Model Weights Download Link](https://drive.google.com/uc?export=download&id=1GKFHhQCOVvJmLIbuOwvwj-nzzoy9h85w) 
-
 |Least Confidence Sampling (Minimum Aggregation) | [LC-Min Best Model Weights Download Link](https://drive.google.com/uc?export=download&id=1aoYgWLj6YzecFnCItP_STC1BMRj5LpLC)
+
