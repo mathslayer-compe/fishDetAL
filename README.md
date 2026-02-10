@@ -36,4 +36,5 @@ Accurate fish detection in underwater imagery is essential for non-invasive fish
     yolo detect val model=path/to/best/model data=path/to/AL_Train/data.yaml split=test 
     ```
 ## Results
-To learn more about the results, visit the [samplers]() directory. To download the best model weights for training, visit the [models]() directory.
+To learn more about the results, visit the [samplers](https://github.com/mathslayer-compe/fishDetAL/tree/main/src/samplers) directory. To download the best model weights for training, visit the [models](https://github.com/mathslayer-compe/fishDetAL/tree/main/src/models) directory.
+
