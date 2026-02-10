@@ -7,7 +7,7 @@ Each sampler defines a strategy for selecting the most **informative unlabeled s
 efficiently.  
 
 Currently, the toolkit includes an **[Uncertainty Sampler](https://github.com/mathslayer-compe/fishDetAL/blob/main/src/samplers/uncertainty_sampling.py)**, which aggregates confidence/entropy scores from a YOLO model's 
-predictions on images, and a **[Random Sampler]([https://github.com/UCSD-E4E/AL_toolkit/blob/main/src/al_toolkit/random_sampling.py](https://github.com/mathslayer-compe/fishDetAL/blob/main/src/samplers/random_sampling.py)** that randomly selects images after training. This is used more for the purpose of establishing a baseline metric in research. 
+predictions on images, and a **[Random Sampler](https://github.com/mathslayer-compe/fishDetAL/blob/main/src/samplers/random_sampling.py)** that randomly selects images after training. This is used more for the purpose of establishing a baseline metric in research. 
 
 ## Uncertainty Sampling
 The 2 methods of uncertainty sampling that are supported by the sampler are:
@@ -105,4 +105,5 @@ Training was done across 5 random seeds of initially labeled data comparing the 
 
 
 More information related to statistical significance can be found in the demo notebook [ttests.ipynb](https://github.com/mathslayer-compe/fishDetAL/blob/main/demos/ttests.ipynb).
+
 
