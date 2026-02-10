@@ -1,0 +1,7 @@
+'image_path': src/datasets/DeepFish/images
+'label_path': src/datasets/DeepFish/labels
+'train_csv': src/datasets/DeepFish/train.csv
+'val_csv': src/datasets/DeepFish/val.csv
+'test_csv': src/datasets/DeepFish/test.csv
+'num_classes': 1
+'class_names': ['fish']

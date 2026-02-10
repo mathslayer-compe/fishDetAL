@@ -1,0 +1,13 @@
+'model': yolov8n.pt
+'data': src/datasets/AL_Train/data.yaml
+'epochs': 50
+'project': src/models
+'name': trained_models
+'train_csv': src/datasets/DeepFish/train.csv
+'unlabeled_img_dir': src/datasets/AL_Train/unlabeled/images
+'unlabeled_label_dir': src/datasets/AL_Train/unlabeled/labels
+'labeled_img_dir': src/datasets/AL_Train/labeled/images
+'labeled_label_dir': src/datasets/AL_Train/labeled/labels
+'method' : max
+'entropy' : True
+'random': False
