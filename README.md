@@ -5,24 +5,24 @@ Accurate fish detection in underwater imagery is essential for non-invasive fish
 ## Creating + Training Model
 1) Construct DeepFish a dataset that can be used for YOLO training
     ```bash
-    cd path/to/AL_toolkit
+    cd path/to/fishDetAL
     python -m src.cli.dataset_constructor_cli --dataset_dir src/datasets
     ```
 
 2) Preprocess the dataset to get it ready for YOLO training
     ```bash
-    cd path/to/AL_toolkit
+    cd path/to/fishDetAL
     python -m src.cli.yolo_data_setup_cli --config path/to/yolo_dataset_config.yaml
     ```
 
 3) Run the trainer
     ```bash
-    cd path/to/AL_toolkit
+    cd path/to/fishDetAL
     python -m src.cli.trainer_cli --config path/to/training_config_yolo.yaml 
     ```
     To log training, run the script below:
     ```bash
-    cd path/to/AL_toolkit
+    cd path/to/fishDetAL
     python -m src.cli.trainer_cli --config path/to/training_config_yolo.yaml 2>&1 | tee src/models/training.log
     ```
 
@@ -37,4 +37,5 @@ Accurate fish detection in underwater imagery is essential for non-invasive fish
     ```
 ## Results
 To learn more about the results, visit the [samplers](https://github.com/mathslayer-compe/fishDetAL/tree/main/src/samplers) directory. To download the best model weights for training, visit the [models](https://github.com/mathslayer-compe/fishDetAL/tree/main/src/models) directory.
+
 
