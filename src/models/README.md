@@ -3,7 +3,7 @@ This directory contains the model handler for the YOLO model as well as the trai
 
 ## Running Training
 ```bash
-cd path/to/AL_toolkit
+cd path/to/fishDetAL
 python -m src.cli.trainer_cli --config path/to/training_config_yolo.yaml
 ```
 
@@ -15,4 +15,5 @@ Download the models and set their path next to the 'model' parameter in the YOLO
 | Method                       | Model Weights
 |-------------------------------|----------------
 |Entropy-based Sampling (Maximum Aggregation) | [Ent-Max Best Model Weights Download Link](https://drive.google.com/uc?export=download&id=1GKFHhQCOVvJmLIbuOwvwj-nzzoy9h85w) 
+
 |Least Confidence Sampling (Minimum Aggregation) | [LC-Min Best Model Weights Download Link](https://drive.google.com/uc?export=download&id=1aoYgWLj6YzecFnCItP_STC1BMRj5LpLC)
